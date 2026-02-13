@@ -1,10 +1,10 @@
-# Reason-1: System 2 Reasoning Model
+# Logos-R1: System 2 Reasoning Model
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Reason-1** is a state-of-the-art System 2 reasoning model that learns to "think before answering" using **Group Relative Policy Optimization (GRPO)**, a novel reinforcement learning algorithm. The model generates explicit reasoning chains in `<think>...</think>` tags and is trained to maximize mathematical problem-solving accuracy on GSM8K.
+**Logos-R1** is a state-of-the-art System 2 reasoning model that learns to "think before answering" using **Group Relative Policy Optimization (GRPO)**, a novel reinforcement learning algorithm. The model generates explicit reasoning chains in `<think>...</think>` tags and is trained to maximize mathematical problem-solving accuracy on GSM8K.
 
 ## 🚀 Key Features
 
@@ -19,7 +19,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      Reason-1 Architecture                   │
+│                      Logos-R1 Architecture                   │
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
 │  Input: "Solve: John has 5 apples..."                       │
@@ -63,8 +63,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Reason-1.git
-cd Reason-1
+git clone https://github.com/yourusername/Logos-R1.git
+cd Logos-R1
 
 # Create virtual environment
 python -m venv venv
@@ -83,7 +83,7 @@ pip install vllm
 ## 📚 Project Structure
 
 ```
-Reason-1/
+Logos-R1/
 ├── src/
 │   ├── config.py              # Hyperparameter configurations
 │   ├── data/
@@ -323,26 +323,7 @@ pytest tests/ -v
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **GRPO Algorithm**: Inspired by Group Relative Policy Optimization techniques
-- **GSM8K Dataset**: [OpenAI GSM8K](https://github.com/openai/grade-school-math)
-- **Base Models**: Meta LLaMA-3, Qwen-2.5
-- **Libraries**: HuggingFace Transformers, TRL, PEFT
-
-## 📚 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{reason1_2026,
-  title={Reason-1: A System 2 Reasoning Model with GRPO},
-  author={Your Name},
-  year={2026},
-  url={https://github.com/yourusername/Reason-1}
-}
-```
+---
 
 ## 🤝 Contributing
 
@@ -354,13 +335,5 @@ Contributions are welcome! Please:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📧 Contact
 
-For questions or collaboration:
-- Email: your.email@example.com
-- Twitter: [@yourusername](https://twitter.com/yourusername)
-- GitHub Issues: [Create an issue](https://github.com/yourusername/Reason-1/issues)
 
----
-
-**Built with ❤️ for advancing AI reasoning capabilities**
